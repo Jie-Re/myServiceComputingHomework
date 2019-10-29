@@ -230,3 +230,5 @@ $ go install agenda
 ![login-fail1](https://img-blog.csdnimg.cn/20191029184118670.PNG)  
 	密码错误`agenda login -u wyb -p 1997`  
 	![login-fail2](https://img-blog.csdnimg.cn/2019102918423852.PNG)  
+# 本文博客链接
+[服务计算Agend小程序开发作业心得](https://blog.csdn.net/xxiangyusb/article/details/102799076)
