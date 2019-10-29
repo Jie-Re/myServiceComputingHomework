@@ -211,22 +211,22 @@ $ go install agenda
 3. `agenda login -h`
 ![login-help](https://img-blog.csdnimg.cn/20191029183105363.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3h4aWFuZ3l1c2I=,size_16,color_FFFFFF,t_70#pic_center)
 4. `agenda register -u wyb -p 0805 -e 19970805@163.com`
-![register-success](https://img-blog.csdnimg.cn/20191029183144620.PNG#pic_center)
-**相应错误测试**：
-未设置用户名`agenda register -p 0805 -e 19970805@163.com`
-![register-error1](https://img-blog.csdnimg.cn/20191029183402929.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3h4aWFuZ3l1c2I=,size_16,color_FFFFFF,t_70#pic_center)
-	未设置密码`agenda register -u web -e 19970805@163.com`
-![register-error2](https://img-blog.csdnimg.cn/20191029183450831.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3h4aWFuZ3l1c2I=,size_16,color_FFFFFF,t_70#pic_center)
-	未设置邮箱`agenda register -u web -p 0805`
-![register-error3](https://img-blog.csdnimg.cn/20191029183544755.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3h4aWFuZ3l1c2I=,size_16,color_FFFFFF,t_70#pic_center)
-	邮箱地址不合法`agenda register -u web -p 0805 -e 19970805`
-![register-error4](https://img-blog.csdnimg.cn/20191029183630771.PNG#pic_center)
-	用户名重复`agenda register -u wyb -p 1997 -e 0805@163.com`
-![register-error5](https://img-blog.csdnimg.cn/20191029183714800.PNG#pic_center)
+![register-success](https://img-blog.csdnimg.cn/20191029183144620.PNG#pic_center)  
+**相应错误测试**：  
+未设置用户名`agenda register -p 0805 -e 19970805@163.com`  
+![register-error1](https://img-blog.csdnimg.cn/20191029183402929.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3h4aWFuZ3l1c2I=,size_16,color_FFFFFF,t_70#pic_center)  
+	未设置密码`agenda register -u web -e 19970805@163.com`  
+![register-error2](https://img-blog.csdnimg.cn/20191029183450831.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3h4aWFuZ3l1c2I=,size_16,color_FFFFFF,t_70#pic_center)  
+	未设置邮箱`agenda register -u web -p 0805`  
+![register-error3](https://img-blog.csdnimg.cn/20191029183544755.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3h4aWFuZ3l1c2I=,size_16,color_FFFFFF,t_70#pic_center)  
+	邮箱地址不合法`agenda register -u web -p 0805 -e 19970805`  
+![register-error4](https://img-blog.csdnimg.cn/20191029183630771.PNG#pic_center)  
+	用户名重复`agenda register -u wyb -p 1997 -e 0805@163.com`  
+![register-error5](https://img-blog.csdnimg.cn/20191029183714800.PNG#pic_center)  
 5. `agenda login -u wyb -p 0805`
-![login](https://img-blog.csdnimg.cn/20191029184031307.PNG)
-	**相应错误测试**：
-	用户名不存在`agenda login -u aaa -p 0805`
-![login-fail1](https://img-blog.csdnimg.cn/20191029184118670.PNG)
-	密码错误`agenda login -u wyb -p 1997`
-	![login-fail2](https://img-blog.csdnimg.cn/2019102918423852.PNG)
+![login](https://img-blog.csdnimg.cn/20191029184031307.PNG)  
+	**相应错误测试**：  
+	用户名不存在`agenda login -u aaa -p 0805`  
+![login-fail1](https://img-blog.csdnimg.cn/20191029184118670.PNG)  
+	密码错误`agenda login -u wyb -p 1997`  
+	![login-fail2](https://img-blog.csdnimg.cn/2019102918423852.PNG)  
